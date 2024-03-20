@@ -1,0 +1,175 @@
+/* F06543 E8E9EB E0DFD5 313638 F09D51 */
+* {
+  font-family: 'Rockwell', sans-serif;
+}
+
+.backgroundColor
+{
+	background-color:#E0DFD5;
+}
+
+.name-format
+{
+	color:#03026f;
+	text-align: left;
+	font-size:38px;
+	font-weight:bold;
+}
+.link-format
+{
+	padding-top: 2%;
+	text-align: right;
+}
+
+.text-format-about{
+	color:#800000;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.nav-tabs{
+	float:right;
+}
+
+.jumbotron{
+
+background-color:#E0DFD5;
+
+}
+.lead{
+	text-align:justify;
+}
+
+
+.panel {
+    margin-bottom: 20px;
+	background-color:#E8E9EB;
+    border: 0px solid transparent;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 2px 4px 4px rgba(0,0,0,.2);
+	
+}
+
+.panel:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.edu-panel{
+	box-shadow: -7px 0px 4px rgba(1,1,63,.2);
+}
+
+.edu-panel-center{
+}
+
+.edu-panel-opp{
+	box-shadow: 7px 0px 4px rgba(1,1,63,.2);
+}
+
+.eduBodyProps{
+	font-size:18px;
+}
+
+.panel-default {
+    border-color: transparent;
+	/*border-radius: 10px;*/
+}
+
+.panel:nth-child(odd) {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.panel:nth-child(even) {
+  animation: slideIn 0.5s ease-out;
+}
+
+.panel-body {
+    padding: 15px;
+	color:black;
+	font-style:120%;
+}
+
+.exp-panel-body-center{
+	text-align:center;
+	font-size:18px;
+}
+
+.exp-panel-body-opp{
+	text-align:right;
+	font-size:18px;
+}
+.experienceBody{
+	font-size:16px;
+	text-align:justify;
+}
+
+.experienceHeading{
+	font-size:18px;
+}
+.eduDateProps{
+	font-size:18px;
+	font-weight:bold;
+	text-align:right;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.logo2{
+	width:60px;
+	height:60px;
+	display:inline-block;
+}
+.logo3{
+	width:32px;
+	height:32px;
+	display:inline-block;
+}
+.logo4{
+	width:32px;
+	height:32px;
+	display:inline-block;
+}
+
+.card {
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color:#E8E9EB;
+}
+
+.card-body{
+	padding: 10px;
+	
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h5{
+	font-weight:bold;
+}
